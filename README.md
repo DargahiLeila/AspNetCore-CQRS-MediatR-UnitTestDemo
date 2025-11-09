@@ -19,7 +19,7 @@ This project demonstrates a clean implementation of the CQRS (Command Query Resp
 - N-Tier Architecture (UI, BLL, DAL, Domain)
 - Separate Unit Test DLL
 
-📁 Project Structure
+## 📁 Project Structure
 
 ├── AspNetCore-CQRS-MediatR-UnitTestDemo/
 
@@ -33,10 +33,10 @@ This project demonstrates a clean implementation of the CQRS (Command Query Resp
 
 │   └── Tests/            → Separate DLL for unit tests
 
-🚀 How to Run
+## 🚀 How to Run
 
 1.Clone the repository:
-
+  ```bash
 git clone https://github.com/DargahiLeila/AspNetCore-CQRS-MediatR-UnitTestDemo.git
 
 
