@@ -35,8 +35,10 @@ This project demonstrates a clean implementation of the CQRS (Command Query Resp
 
 🚀 How to Run
 1.Clone the repository:
+
   ```bash
 git clone https://github.com/DargahiLeila/AspNetCore-CQRS-MediatR-UnitTestDemo.git
+
 
 2.Open the solution file (.sln) in Visual Studio 2022 or later.
 
