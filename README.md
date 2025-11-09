@@ -1,7 +1,9 @@
 🧠 AspNetCore-CQRS-MediatR-UnitTestDemo
+
 This project demonstrates a clean implementation of the CQRS (Command Query Responsibility Segregation) pattern using MediatR in an ASP.NET Core MVC application. It also includes a separate unit test project (DLL) to validate command and query behaviors.
 
 🎯 Project Purpose
+
 Showcase CQRS with MediatR in ASP.NET Core
 
 Apply layered architecture (N-Tier) for clean separation of concerns
