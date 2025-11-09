@@ -22,10 +22,15 @@ This project demonstrates a clean implementation of the CQRS (Command Query Resp
 📁 Project Structure
 
 ├── AspNetCore-CQRS-MediatR-UnitTestDemo/
+
 │   ├── Domain/           → Core entities and interfaces
+
 │   ├── DAL/              → Data access layer
+
 │   ├── BLL/              → Business logic + MediatR handlers
+
 │   ├── UI/               → ASP.NET Core MVC frontend
+
 │   └── Tests/            → Separate DLL for unit tests
 
 🚀 How to Run
@@ -54,7 +59,9 @@ CREATE TABLE [dbo].[TBL_Users] (
 6.Update your appsettings.json with the correct connection strings:
 
 "ReadConnectionString": "Data Source=YourServer;Initial Catalog=MyApp_ReadDB;User Id=your_user;Password=your_password;",
+
 "WriteConnectionString": "Data Source=YourServer;Initial Catalog=MyApp_WriteDB;User Id=your_user;Password=your_password;"
+
 
 7.Run the project:
 
@@ -89,18 +96,18 @@ You can schedule this job using SQL Server Agent or any external scheduler.
 
 🧪 Unit Testing
 
-All CQRS handlers (commands and queries) are tested using a separate test project (DLL).
+- All CQRS handlers (commands and queries) are tested using a separate test project (DLL).
 
-Tests are written using xUnit and cover:
+- Tests are written using xUnit and cover:
 
-Command validation
+- Command validation
 
-Query results
+- Query results
 
-Business logic edge cases
+- Business logic edge cases
 
 To run tests:
 
-Right-click the Tests project in Visual Studio
+- Right-click the Tests project in Visual Studio
 
-Select Run Tests
+- Select Run Tests
